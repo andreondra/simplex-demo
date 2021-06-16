@@ -1,0 +1,20 @@
+- title: Programming #Menu item title.
+  url: category/programming.html #Menu item url.
+  icon: assets/img/icons/c.svg #Menu item icon.
+  hue: "var(--c-themeHueRed)" #Menu item hue - see note [1].
+  subnav: #Subnav. See note [2].
+      - title: C++ #Submenu item title.
+        url: category/cpp.html #Submenu item url.
+        hue: "var(--c-themeHueOrange)" #Submenu item hue.
+        subnav: #Another subnav
+            - title: Libraries
+              url: category/libs.html
+              hue: "var(--c-themeHueBlue)"
+- title: Design
+  url: category/design.html
+  icon: assets/img/icons/paint_brush.svg
+  hue: "var(--c-themeHueOrange)"
+- title: About
+  url: about/index.html
+  icon: assets/img/icons/info.svg
+  hue: "var(--c-themeHueGreen)"
